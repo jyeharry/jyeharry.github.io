@@ -1,99 +1,235 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jye Harry - Junior Software Developer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/main.js"></script>
   </head>
   <body>
     <div class="container marketing">
-      <ul>
-        <li><a href='https://github.com/jyeharry' class="icon style2 major fa-github" target="_blank"></a></li>
-        <li><a href='https://www.linkedin.com/in/jyeharry/' class="icon style2 major fa-linkedin" target="_blank"></a></li>
-        <li><a href='mailto:jyeharry21@hotmail.com' class="icon style2 major fa-envelope"></a></li>
+      <ul class="socials">
+        <li>
+          <a
+            href="https://github.com/jyeharry"
+            class="icon style2 major fa-github"
+            target="_blank"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/jyeharry/"
+            class="icon style2 major fa-linkedin"
+            target="_blank"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="mailto:jyeharry21@hotmail.com"
+            class="icon style2 major fa-envelope"
+          ></a>
+        </li>
       </ul>
 
       <!-- Banner -->
-      <hr class="featurette-divider">
+      <hr class="featurette-divider" />
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Hi! I'm Jye Harry. <span class="featurette-heading text-muted">I'm a junior software engineer.</span></h2>
-          <br>
-          <p class="lead">I've had a lifelong passion and curiosity for technology. After high-school, I tried sticking around my rural hometown but I realised the quiet life wasn't for me. I made the move to Melbourne, Victoria to pursue a career in tech and what a journey it's been.</p>
-          <p class="lead">My first stop was RMIT to earn the Associate Degree in Information Technology. My second stop, General Assembly, where I studied their Software Engineering Immersive course for a rollercoaster 12 weeks.</p>
-          <p class="lead">Over the last few years, I've learnt a wide range of software engineering skills and I'm excited to see what future holds for me!</p>
+          <h2 class="featurette-heading">
+            Hi! I'm Jye Harry.
+            <span class="featurette-heading text-muted"
+              >I'm a junior software engineer.</span
+            >
+          </h2>
+          <br />
+          <p class="lead">
+            I've had a lifelong passion and curiosity for technology. After
+            high-school, I tried sticking around my rural hometown but I
+            realised the quiet life wasn't for me. I made the move to Melbourne,
+            Victoria to pursue a career in tech and what a journey it's been.
+          </p>
+          <p class="lead">
+            My first stop was RMIT to earn the Associate Degree in Information
+            Technology. My second stop, General Assembly, where I studied their
+            Software Engineering Immersive course for a rollercoaster 12 weeks.
+          </p>
+          <p class="lead">
+            Over the last few years, I've learnt a wide range of software
+            engineering skills and I'm excited to see what future the holds for
+            me!
+          </p>
         </div>
         <div class="col-md-5">
-          <img src="img/headshot 2.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500px" alt="">
+          <img
+            src="img/headshot 2.jpg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            height="500px"
+            alt=""
+          />
         </div>
       </div>
-      <hr class="featurette-divider">
+      <hr class="featurette-divider" />
+
+      <div class="inner">
+        <h2>Employment History</h2>
+      </div>
+
+      <div class="jobs-container">
+        <div class="jobs-container-item">
+          <img src="img/phq.png" class="jobs-img" />
+          <div class="jobs-text">
+            <div class="job-title">
+              <h5>PlayHQ</h5>
+              <p><i>May 2021 - November 2022</i></p>
+            </div>
+            <p>
+              An all-in-one administration platform for community level sports
+              which takes care of things such as player signups, fixturing,
+              ladders, results and more. My role included:
+            </p>
+            <ul>
+              <li>
+                - Developing API routes and webhooks in NestJS apps that
+                utilised protobufs, gRPC and kafka for fast communication.
+              </li>
+              <li>
+                - Leading the charge on a feature allowing users to generate
+                their own API keys through a React webpage using a NestJS
+                backend to store credentials in AWS DynamoDB, completely
+                eliminating the hassle placed on our customer support team every
+                time a user needed an API key.
+              </li>
+              <li>
+                - Writing software with full test coverage including unit tests,
+                integration tests and end-to-end tests.
+              </li>
+              <li>
+                - Working with a modern graph-based database called Neo4j.
+              </li>
+              <li>
+                - Working as a part of an agile squad participating in regular
+                agile ceremonies.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
 
       <div class="inner">
         <h2>Projects</h2>
-        <p class='lead'>Here are some of the projects I've on worked in the past, either on my own or as a collaborator. None of these projects are truly 'finished'; I hope to continue adding more features to them as my skills grow.</p>
+        <p class="lead">
+          Here are some of the projects I've on worked in the past, either on my
+          own or as a collaborator. None of these projects are truly 'finished';
+          I hope to continue adding more features to them as my skills grow.
+        </p>
       </div>
 
-      <div class='projects-container'>
-
-        <div class='inner-projects-container'>
-
-          <div class='project'>
-            <img src='img/tictactoe.png'/>
-            <div class='project-body'>
-              <a href="https://jyeharry.github.io/project0/" target="_blank">
-                <h4>TicTacToe</h4>
-              </a>
-              <p class="lead"><strong>HTML and CSS, Javascript/jQuery</strong></p>
-              <p class='lead'>A classic game that everyone knows. This was my first project at General Assembly and it was designed to test our knowledge of basic HTML and CSS, as well as Javascript/jQuery. Additional features I added to the game were a score counter and the option for players to choose an emoji for their token.</p>
-            </div>
-          </div>
-
-          <div class='project'>
-            <img src='img/barhop.png'/>
-            <div class='project-body'>
-              <a href='https://agile-wave-60653.herokuapp.com/' target="_blank">
+      <div class="projects-container">
+        <div class="inner-projects-container">
+          <div class="project">
+            <img src="img/barhop.png" />
+            <div class="project-body">
+              <a href="https://agile-wave-60653.herokuapp.com/" target="_blank">
                 <h4>BarHop</h4>
               </a>
-              <p class='lead'><strong>Ruby on Rails, PostgreSQL, Bootstrap, Google Places API and deployed to Heroku</strong></p>
-              <p class='lead'>BarHop allows users to search a suburb or street and have a list of bars and nightclubs in that area be returned to them in a card format, to make choosing their next social outing easier. Users can also sign up to save bars they like.</p>
+              <p class="lead">
+                <strong
+                  >Ruby on Rails, PostgreSQL, Bootstrap, Google Places API and
+                  deployed to Heroku</strong
+                >
+              </p>
+              <p class="lead">
+                BarHop allows users to search a suburb or street and have a list
+                of bars and nightclubs in that area be returned to them in a
+                card format, to make choosing their next social outing easier.
+                Users can also sign up to save bars they like.
+              </p>
             </div>
           </div>
 
-        </div>
-
-        <div class='inner-projects-container'>
-
-          <div class='project'>
-            <img src='img/travel tracker.png'/>
-            <div class='project-body'>
-              <a href="https://daniiblack.github.io/react-scratch-map/" target="_blank">
-                <h4>Travel Tracker</h4>
-              </a>
-              <p class='lead'><strong>React, Rails and 'react-jvectormap'</strong></p>
-              <p class='lead'>This was my first group project and we all had a blast building it. Developing with React for the first time was tough, so getting the map to behave the way we wanted was a real fist-pump moment. The map allows users to highlight countries they wish to visit or have visited. <strong>Note: use email jyeh@ga.co and password 'chicken' to sign in and try the map.</strong></p>
-            </div>
-          </div>
-
-          <div class='project'>
-            <img src='img/investment calculator.png'/>
-            <div class='project-body'>
+          <div class="project">
+            <img src="img/investment calculator.png" />
+            <div class="project-body">
               <a href="https://ga-project3.web.app/#/" target="_blank">
                 <h4>Investment Calculator</h4>
               </a>
-              <p class='lead'><strong>React, Chart.js and the AlphaVantage API</strong></p>
-              <p class='lead'>When planning this project, I felt my grasp on React wasn't strong enough. I thought the best way to learn something is to just dive in and do it so that's what I did. This apps purpose is to chart the share prices of any american company across different time periods. I also added a second chart with a form that shows you what an investment in that company would look like today.</p>
+              <p class="lead">
+                <strong>React, Chart.js and the AlphaVantage API</strong>
+              </p>
+              <p class="lead">
+                When planning this project, I felt my grasp on React wasn't
+                strong enough. I thought the best way to learn something is to
+                just dive in and do it so that's what I did. This apps purpose
+                is to chart the share prices of any american company across
+                different time periods. I also added a second chart with a form
+                that shows you what an investment in that company would look
+                like today.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="inner-projects-container">
+          <div class="project">
+            <img src="img/tictactoe.png" />
+            <div class="project-body">
+              <a href="https://jyeharry.github.io/project0/" target="_blank">
+                <h4>TicTacToe</h4>
+              </a>
+              <p class="lead">
+                <strong>HTML and CSS, Javascript/jQuery</strong>
+              </p>
+              <p class="lead">
+                A classic game that everyone knows. This was my first project at
+                General Assembly and it was designed to test our knowledge of
+                basic HTML and CSS, as well as Javascript/jQuery. Additional
+                features I added to the game were a score counter and the option
+                for players to choose an emoji for their token.
+              </p>
             </div>
           </div>
 
+          <div class="project">
+            <img src="img/travel tracker.png" />
+            <div class="project-body">
+              <a
+                href="https://daniiblack.github.io/react-scratch-map/"
+                target="_blank"
+              >
+                <h4>Travel Tracker</h4>
+              </a>
+              <p class="lead">
+                <strong>React, Rails and 'react-jvectormap'</strong>
+              </p>
+              <p class="lead">
+                This was my first group project and we all had a blast building
+                it. Developing with React for the first time was tough, so
+                getting the map to behave the way we wanted was a real fist-pump
+                moment. The map allows users to highlight countries they wish to
+                visit or have visited.
+                <strong
+                  >Note: use email jyeh@ga.co and password 'chicken' to sign in
+                  and try the map.</strong
+                >
+              </p>
+            </div>
+          </div>
         </div>
-
       </div>
-
     </div>
   </body>
 </html>
