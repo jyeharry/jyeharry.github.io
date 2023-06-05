@@ -19,21 +19,20 @@ section {
 }
 
 .socials {
-  list-style-type: none;
   padding: 0;
   text-align: right;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 3rem;
   z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 3px;
 }
 
 .lead {
   font-size: 1.1rem;
-}
-
-li {
-  display: inline-block;
 }
 
 a {
@@ -155,6 +154,14 @@ h4 {
   .project:hover {
     top: 0px;
     box-shadow: none;
+  }
+
+  .jobs-text {
+    order: 2;
+  }
+
+  .jobs-img {
+    order: 1;
   }
 
   .jobs-container-item {
