@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
@@ -89,48 +89,49 @@
 
       <div class="jobs-container">
         <div class="jobs-container-item">
-          <img src="img/phq.png" class="jobs-img" />
+          <img src="img/Nine_Blue_RGB.png" class="jobs-img" />
           <div class="jobs-text">
             <div class="job-title">
-              <h5>PlayHQ</h5>
-              <p><i>May 2021 - November 2022</i></p>
+              <h5>Nine</h5>
+              <p><i>September 2024 - Present</i></p>
             </div>
             <p class="lead">
-              An all-in-one administration platform for community level sports
-              which takes care of things such as player signups, fixturing,
-              ladders, results and more. My role included:
+              Nine is one of Australia's most recognisable media companies. At
+              Nine, I was part of the Radio team where I worked on the React
+              Native app for 2GB, 3AW, 4BC and 6PR. Some of my work here
+              included:
             </p>
             <ul>
               <li class="lead">
-                Developing API routes and webhooks in NestJS apps that utilised
-                protobufs, gRPC and kafka for fast communication.
+                Created developer environments for our WordPress site using
+                Pantheon Multidev.
               </li>
               <li class="lead">
-                Developing the front and backend for a feature allowing users to
-                generate their own API keys through a React webpage using a
-                NestJS backend to store credentials in AWS DynamoDB, completely
-                eliminating the hassle placed on our customer support team every
-                time a user needed an API key.
+                Acted as tech debt hat and quality hat and held retros to
+                identify pain points and performance bottlenecks and created
+                Jira tickets to action those items.
               </li>
               <li class="lead">
-                Writing software with full test coverage including unit tests,
-                integration tests and end-to-end tests.
+                Reduced 20 minute CI/CD build times by over 3 minutes by
+                converting unnecessary E2E tests into unit tests in Jest/React
+                Testing Library and created tickets to further improve on this.
               </li>
               <li class="lead">
-                Working with a modern graph-based database called Neo4j.
+                Led and participated in technical and behavioural interviews.
               </li>
               <li class="lead">
-                Working as a part of an agile squad participating in regular
-                agile ceremonies.
+                Participated in the on-call roster where I handled incidents
+                with PagerDuty.
+              </li>
+              <li class="lead">
+                Created a demo app to showcase Jotai to the team and help them
+                upskill in the library, as the library’s documentation was
+                lacking in information.
               </li>
             </ul>
           </div>
         </div>
-      </div>
 
-      <br>
-
-      <div class="jobs-container">
         <div class="jobs-container-item">
           <div class="jobs-text">
             <div class="job-title">
@@ -171,6 +172,45 @@
           </div>
           <img src="img/arcadian.png" class="jobs-img" />
         </div>
+
+        <div class="jobs-container-item">
+          <img src="img/phq.png" class="jobs-img" />
+          <div class="jobs-text">
+            <div class="job-title">
+              <h5>PlayHQ</h5>
+              <p><i>May 2021 - November 2022</i></p>
+            </div>
+            <p class="lead">
+              An all-in-one administration platform for community level sports
+              which takes care of things such as player signups, fixturing,
+              ladders, results and more. My role included:
+            </p>
+            <ul>
+              <li class="lead">
+                Developing API routes and webhooks in NestJS apps that utilised
+                protobufs, gRPC and kafka for fast communication.
+              </li>
+              <li class="lead">
+                Developing the front and backend for a feature allowing users to
+                generate their own API keys through a React webpage using a
+                NestJS backend to store credentials in AWS DynamoDB, completely
+                eliminating the hassle placed on our customer support team every
+                time a user needed an API key.
+              </li>
+              <li class="lead">
+                Writing software with full test coverage including unit tests,
+                integration tests and end-to-end tests.
+              </li>
+              <li class="lead">
+                Working with a modern graph-based database called Neo4j.
+              </li>
+              <li class="lead">
+                Working as a part of an agile squad participating in regular
+                agile ceremonies.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <hr class="featurette-divider" />
@@ -185,13 +225,48 @@
       </div>
 
       <div class="projects-container">
-        <div class="inner-projects-container">
-          <div class="project">
-            <img src="img/barhop.png" />
+        <div class="project">
+          <a href="https://github.com/jyeharry/heave" target="_blank">
+            <div class="project-img"><img src="img/heave-workout.png" /></div>
             <div class="project-body">
-              <a href="https://agile-wave-60653.herokuapp.com/" target="_blank">
-                <h4>BarHop</h4>
-              </a>
+              <h4>Heave</h4>
+              <p class="lead">
+                <strong>Expo, Supabase, PostgreSQL</strong>
+              </p>
+              <p class="lead">
+                My first mobile app built fully from scratch. I regularly
+                workout at the gym and am often looking for ways to change up my
+                workouts. So I created an app where you can record your own
+                workouts as well as discover other gym goers and view and save
+                their workouts too.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="project">
+          <a
+            href="https://github.com/jyeharry/realtime-app"
+            target="_blank"
+          >
+            <div class="project-img"><img src="img/realtime-app.png" /></div>
+            <div class="project-body">
+              <h4>Realtime Chat</h4>
+              <p class="lead">
+                <strong>NextJS, Redis, Tailwind, realtime with Pusher</strong>
+              </p>
+              <p class="lead">
+                I had always wanted to build a real-time application and a messaging application is the perfect example of one of these. I came across a tutorial on youtube for this and dove into it.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="project">
+          <a href="https://github.com/jyeharry/project1" target="_blank">
+            <div class="project-img"><img src="img/barhop.png" /></div>
+            <div class="project-body">
+              <h4>BarHop</h4>
               <p class="lead">
                 <strong
                   >Ruby on Rails, PostgreSQL, Bootstrap, Google Places API and
@@ -205,14 +280,16 @@
                 Users can also sign up to save bars they like.
               </p>
             </div>
-          </div>
+          </a>
+        </div>
 
-          <div class="project">
-            <img src="img/investment calculator.png" />
+        <div class="project">
+          <a href="https://ga-project3.web.app/#/" target="_blank">
+            <div class="project-img">
+              <img src="img/investment calculator.png" />
+            </div>
             <div class="project-body">
-              <a href="https://ga-project3.web.app/#/" target="_blank">
-                <h4>Investment Calculator</h4>
-              </a>
+              <h4>Investment Calculator</h4>
               <p class="lead">
                 <strong>React, Chart.js and the AlphaVantage API</strong>
               </p>
@@ -226,54 +303,7 @@
                 like today.
               </p>
             </div>
-          </div>
-        </div>
-
-        <div class="inner-projects-container">
-          <div class="project">
-            <img src="img/tictactoe.png" />
-            <div class="project-body">
-              <a href="https://jyeharry.github.io/project0/" target="_blank">
-                <h4>TicTacToe</h4>
-              </a>
-              <p class="lead">
-                <strong>HTML and CSS, Javascript/jQuery</strong>
-              </p>
-              <p class="lead">
-                A classic game that everyone knows. This was my first project at
-                General Assembly and it was designed to test our knowledge of
-                basic HTML and CSS, as well as Javascript/jQuery. Additional
-                features I added to the game were a score counter and the option
-                for players to choose an emoji for their token.
-              </p>
-            </div>
-          </div>
-
-          <div class="project">
-            <img src="img/travel tracker.png" />
-            <div class="project-body">
-              <a
-                href="https://daniiblack.github.io/react-scratch-map/"
-                target="_blank"
-              >
-                <h4>Travel Tracker</h4>
-              </a>
-              <p class="lead">
-                <strong>React, Rails and 'react-jvectormap'</strong>
-              </p>
-              <p class="lead">
-                This was my first group project and we all had a blast building
-                it. Developing with React for the first time was tough, so
-                getting the map to behave the way we wanted was a real fist-pump
-                moment. The map allows users to highlight countries they wish to
-                visit or have visited.
-                <strong
-                  >Note: use email jyeh@ga.co and password 'chicken' to sign in
-                  and try the map.</strong
-                >
-              </p>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
